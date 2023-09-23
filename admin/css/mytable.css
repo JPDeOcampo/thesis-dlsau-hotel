@@ -1,0 +1,28 @@
+table.newTable  {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 4800px;
+}
+table.newTable thead tr th {
+font-weight: 600;
+}
+
+table.newTable thead tr th:nth-child(all){
+background-color: #ddd;
+}
+table.newTable thead tr th:hover{
+background-color: #ddd;
+}
+
+table.newTable td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+table.newTable tbody tr:nth-child(odd){
+background-color: #f2f2f2;
+}
+table.newTable tbody tr:hover {
+background-color: #ddd;
+}
+     

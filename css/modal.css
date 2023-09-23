@@ -1,0 +1,88 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+   padding-bottom: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  padding-top: 3px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 790px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.div_header{
+	background: #13322b;
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	opacity: 1;
+	filter: alpha (opacity=80);
+}
+.div_header h1{
+	float: center;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+
+}
+.form-group{
+   font-family: arial;
+   font-size: 20px;
+}
+
+
+
+.form {
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	.form label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}
+	.form select{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+	.form input{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+	
